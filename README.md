@@ -1,0 +1,2 @@
+# Visit-Lesotho
+discover lesotho
