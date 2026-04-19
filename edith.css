@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: lightgray;
+
+}
+
+/* HEADER */
+header {
+    background: rgba(0, 100, 0, 0.9);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* HERO SECTIONS */
+.home-banner {
+    background: url('maliba.jpg') center/cover;
+    padding: 200px;
+    color: white;
+    text-align: center;
+}
+
+.blog-banner {
+    background: url("bg.jpg") center/cover;
+    padding: 130px;
+    color: white;
+    text-align: center;
+}
+
+.attractions-banner {
+    background: url('maletsunyane.jpg') center/cover;
+    padding: 220px;
+    color: white;
+    text-align: center;
+}
+
+.tips-banner {
+    background: url('avani.jpg') center/cover;
+    padding: 170px;
+    color: white;
+    text-align: center;
+}
+
+.gallery-banner {
+    background: url('qiloane 2.jpeg') center/cover;
+    padding: 195px;
+    color: white;
+    text-align: center;
+}
+
+/* CONTENT */
+section {
+    margin: 30px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* CARDS */
+.card, .blog {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img, .blog img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid black;
+}
+
+/* GALLERY GRID */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin: 30px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 30px;
+}
+
+.contact a {
+    color: green;
+    font-weight: bold;
+}
+
+/* BACK TO TOP */
+.top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: black;
+    color: white;
+    padding: 12px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+footer{
+    text-align:center;
+    padding:10px;
+    border-radius:15px;
+    background:#0000ff;
+    color:white;
+    margin-top:20px;
+    marging
+}
+
+.container {
+display: flex;
+align-items: center;
+gap: 60px;
+}
+
+img {
+width 200px;
+height: auto;
+}
+
+.caption {
+max-width:300px;
+}
